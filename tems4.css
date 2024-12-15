@@ -1,0 +1,29 @@
+
+
+
+/* Контейнер для управления */
+.controls {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+/* Стили для canvas */
+canvas {
+    border: 1px solid #555;
+    width:45vw;
+    height: 15vw;
+}
+.content{
+    height: 115vw;
+    justify-content: center;
+    text-align: center;
+}
+.formula{
+    margin: 1vw;
+    margin-left: 2vw;    
+}
+.opisanie{
+    border-radius: 1vw;
+    border: 4px solid black;
+}
+

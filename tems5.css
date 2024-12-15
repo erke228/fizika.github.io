@@ -1,0 +1,50 @@
+.controls {
+    margin: 20px auto;
+    max-width: 500px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+.output {
+    margin: 20px 0;
+    padding: 10px;
+    background: #eef;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.flow {
+    margin-top: 20px;
+    height: 200px;
+    background: linear-gradient(to right, #a3cef1, #0056b3);
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 20px;
+    background: #ffcc00;
+    transform: translateY(-50%);
+    border-radius: 5px;
+}
+.info{
+    top: 0px;
+    margin-top: 0px;
+}
+.infodyn{
+    margin-top: 1vw;
+}

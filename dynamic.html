@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Физика для всех</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tems1.css">
+    <link rel="stylesheet" href="tems2.css">
+    <link rel="stylesheet" href="tems5.css">
+
+    <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+</head>
+<header>
+    <div class="profile">
+    </div>
+
+    <h1>
+        OpenPhysics
+    </h1>
+    <a href="home.html">
+        <div class="home">
+
+        </div>
+    </a>
+</header>
+
+<body>
+    <div class="content">
+        <div class="info">
+            <h1>Давление торможения</h1>
+            <p>Формула Давление торможения:</p>
+            <div>
+                \[
+                P_{\text{dynamic}} = \frac{1}{2} \rho v^2
+                \]
+            </div>
+
+            <div class="controls">
+                <label for="density">Плотность \( \rho \) (кг/м³): <span id="density-value">1000</span></label>
+                <input type="range" id="density" min="500" max="2000" value="1000" step="10">
+
+                <label for="velocity">Скорость \( v \) (м/с): <span id="velocity-value">5</span></label>
+                <input type="range" id="velocity" min="1" max="20" value="5" step="1">
+            </div>
+
+            <div class="output">
+                Давление торможения: <span id="dynamic-pressure">12,500</span> Па
+            </div>
+
+            <div class="flow" id="flow">
+                <div class="arrow" id="arrow"></div>
+            </div>
+
+        </div>
+        <div class="info infodyn">
+            <p>
+                В гидродинамике давление торможения (или давление Пито) — это статическое давление в точке нулевой
+                скорости потока жидкости[1]. В этой точке скорость жидкости равна нулю. В несжимаемом потоке давление
+                торможения равно сумме статического и динамического давления набегающего потока[2].
+
+                Давление торможения иногда называют давлением Пито, потому что оно измеряется с помощью трубки Пито.
+            </p>
+            <h3>
+                Физика явления
+            </h3>
+            <p>
+                
+            </p>
+        </div>
+
+        <script src="tema5/tema5.js"></script>
+    </div>
+
+
+
+</body>
+
+
+</html>
